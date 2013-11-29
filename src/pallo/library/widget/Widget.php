@@ -36,6 +36,12 @@ interface Widget extends Controller {
     public function setLocale($locale);
 
     /**
+     * Gets the callback for the widget action
+     * @return callback Callback for the action
+     */
+    public function getCallback();
+
+    /**
      * Sets the properties of the widget
      * @param WidgetProperties $properties Widget properties
      * @return null
