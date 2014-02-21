@@ -1,6 +1,6 @@
 <?php
 
-namespace pallo\library\widget;
+namespace ride\library\widget;
 
 /**
  * Interface for the properties of a widget

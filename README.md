@@ -1,3 +1,3 @@
-# Pallo: Widget Library
+# Ride: Widget Library
 
-Base widget library of the PHP Pallo framework.
+Base widget library of the PHP Ride framework.

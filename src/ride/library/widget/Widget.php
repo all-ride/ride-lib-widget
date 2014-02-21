@@ -1,8 +1,8 @@
 <?php
 
-namespace pallo\library\widget;
+namespace ride\library\widget;
 
-use pallo\library\mvc\controller\Controller;
+use ride\library\mvc\controller\Controller;
 
 /**
  * Interface for a widget: a small independant component of a page
