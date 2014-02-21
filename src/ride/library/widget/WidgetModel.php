@@ -1,6 +1,6 @@
 <?php
 
-namespace pallo\library\widget;
+namespace ride\library\widget;
 
 /**
  * Interface for the model of the available widgets
@@ -10,7 +10,7 @@ interface WidgetModel {
     /**
      * Gets the instance of a widget
      * @param string $widget Machine name of the widget
-     * @return pallo\library\widget\Widget
+     * @return ride\library\widget\Widget
      */
     public function getWidget($widget);
 
