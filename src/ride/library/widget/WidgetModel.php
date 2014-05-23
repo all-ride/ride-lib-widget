@@ -10,7 +10,7 @@ interface WidgetModel {
     /**
      * Gets the instance of a widget
      * @param string $widget Machine name of the widget
-     * @return ride\library\widget\Widget
+     * @return \ride\library\widget\Widget
      */
     public function getWidget($widget);
 
