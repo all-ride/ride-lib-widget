@@ -25,6 +25,12 @@ interface WidgetProperties {
     public function getWidgetProperty($key, $default = null);
 
     /**
+     * Gets all the properties of the widget
+     * @return array Array with the properties of the widget
+     */
+    public function getWidgetProperties();
+
+    /**
      * Clears all the properties of the widget
      * @return null
      */
