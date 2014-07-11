@@ -26,14 +26,16 @@ interface WidgetProperties {
 
     /**
      * Gets all the properties of the widget
+     * @param string $prefix Prefix of the properties to obtain
      * @return array Array with the properties of the widget
      */
-    public function getWidgetProperties();
+    public function getWidgetProperties($prefix = null);
 
     /**
      * Clears all the properties of the widget
+     * @param string $prefix Prefix of the properties to remove
      * @return null
      */
-    public function clearWidgetProperties();
+    public function clearWidgetProperties($prefix = null);
 
 }
