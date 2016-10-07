@@ -6,7 +6,7 @@ Widget abstraction library of the PHP Ride framework.
 
 ### Widget
 
-A _Widget_ is a small component which can be placed in a container.
+A _Widget_ interface represents a small component which can be placed in a container.
 
 ### WidgetProperties
 
@@ -16,7 +16,7 @@ A generic implementation is provided through the _GenericWidgetProperties_ class
 
 ### WidgetModel
 
-The _WidgetModel_ is the data store for the available widgets.
+The _WidgetModel_ interface is used to implement a data store of the available widgets.
 
 ## Implementations
 
